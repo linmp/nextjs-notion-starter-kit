@@ -5,6 +5,7 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
+import { RiBilibiliFill } from '@react-icons/all-files/ri/RiBilibiliFill'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 
@@ -107,6 +108,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaEnvelopeOpenText />
+          </a>
+        )}
+
+        {config.bilibili && (
+          <a
+            className={styles.bilibili}
+            href={`https://space.bilibili.com/${config.bilibili}`}
+            title={`B站 ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <RiBilibiliFill />
           </a>
         )}
 

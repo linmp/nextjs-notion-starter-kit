@@ -105,6 +105,10 @@
   color: #ff0000;
 }
 
+.bilibili:hover {
+  color: #2795e9;
+}
+
 .linkedin:hover {
   color: #0077b5;
 }

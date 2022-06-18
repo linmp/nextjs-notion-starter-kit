@@ -11,15 +11,15 @@ export default siteConfig({
   // basic site info (required)
   name: 'MpBlog',
   domain: 'www.linmp.com',
-  author: 'Mp Lin',
+  author: '明平Mp',
 
   // open graph metadata (optional)
   description: 'Mp的小屋',
 
   // social usernames (optional)
-  twitter: 'null',
   github: 'LinMp',
-  linkedin: 'null',
+  zhihu: 'jamkung',
+  bilibili: '88015135',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
